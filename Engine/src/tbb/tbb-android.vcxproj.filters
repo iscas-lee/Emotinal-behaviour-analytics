@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{a2c4b4cb-7959-45ca-8b60-4ad49d169dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{2cd8d1de-26bc-4f20-afbb-0ef12f624bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rml">
+      <UniqueIdentifier>{5a4054e5-ba1d-4969-a7de-b4a990b7f4f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arena.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cilk-tbb-interop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent_monitor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_scheduler.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_link.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="governor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="intrusive_list.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="itt_notify.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mailbox.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="market.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="observer_proxy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler_common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="scheduler_utility.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="semaphore.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="task_stream.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tbb_assert_impl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tbb_main.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tbb_misc.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tbb_statistics.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tbb_version.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tls.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rml\job_automaton.h">
+      <Filter>rml</Filter>
+    </ClInclude>
+    <ClInclude Include="rml\rml_base.h">
+      <Filter>rml</Filter>
+    </ClInclude>
+    <ClInclude Include="rml\rml_omp.h">
+      <Filter>rml</Filter>
+    </ClInclude>
+    <ClInclude Include="rml\rml_tbb.h">
+      <Filter>rml</Filter>
+    </ClInclude>
+    <ClInclude Include="rml\thread_monitor.h">
+      <Filter>rml</Filter>
+    </ClInclude>
+    <ClInclude Include="rml\wait_counter.h">
+      <Filter>rml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arena.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cache_aligned_allocator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent_hash_map.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent_monitor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent_queue.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent_vector.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="condition_variable.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="critical_section.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_link.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="governor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="itt_notify.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="market.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="observer_proxy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pipeline.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="private_server.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="queuing_mutex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="queuing_rw_mutex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="reader_writer_lock.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="recursive_mutex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="scheduler.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="semaphore.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="spin_mutex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="spin_rw_mutex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="task.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="task_group_context.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tbb_main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tbb_misc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tbb_misc_ex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tbb_statistics.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tbb_thread.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="x86_rtm_rw_mutex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rml\rml_omp.cpp">
+      <Filter>rml</Filter>
+    </ClCompile>
+    <ClCompile Include="rml\rml_server.cpp">
+      <Filter>rml</Filter>
+    </ClCompile>
+    <ClCompile Include="rml\rml_tbb.cpp">
+      <Filter>rml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="version_string.ver" />
+  </ItemGroup>
+</Project>

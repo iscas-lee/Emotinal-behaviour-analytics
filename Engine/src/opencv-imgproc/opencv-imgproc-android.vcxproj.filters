@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{76a5893d-7822-4517-8b6a-f122b8aa6038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{08c0cecc-c791-4785-a575-9cad38c15355}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\opencv2\cvconfig.h" />
+    <ClInclude Include="..\..\include\opencv2\opencv_modules.hpp" />
+    <ClInclude Include="_geom.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="filterengine.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gcgraph.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="accum.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="approx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="blend.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="canny.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="clahe.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="colormap.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="connectedcomponents.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="contours.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="convhull.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="corner.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cornersubpix.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="demosaicing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="deriv.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="distransform.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="emd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="featureselect.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="floodfill.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="gabor.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="generalized_hough.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grabcut.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="hershey_fonts.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="histogram.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="hough.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="imgwarp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="intersection.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="linefit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lsd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="matchcontours.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="min_enclosing_triangle.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="moments.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="morph.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="phasecorr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pyramids.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rotcalipers.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="samplers.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="segmentation.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="shapedescr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="smooth.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="spatialgradient.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="subdivision2d.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sumpixels.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tables.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="templmatch.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="thresh.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="undistort.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

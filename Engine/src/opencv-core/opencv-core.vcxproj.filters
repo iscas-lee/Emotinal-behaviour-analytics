@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="algorithm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="alloc.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="arithm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="command_line_parser.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="conjugate_gradient.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="convert.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="copy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cuda_gpu_mat.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cuda_host_mem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cuda_info.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cuda_stream.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="datastructs.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="directx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="downhill_simplex.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dxt.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="gl_core_3_1.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="glob.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="kmeans.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lapack.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lda.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lpsolver.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mathfuncs.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mathfuncs_core.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="matmul.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="matop.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_decomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="merge.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ocl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="out.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="parallel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pca.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="persistence.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rand.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="split.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stat.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stl.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="tables.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="types.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="umatrix.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="va_intel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_core.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_calib3d.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_core.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_features2d.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_imgproc.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_objdetect.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_photo.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_stitching.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_superres.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="opencl_kernels_video.cpp">
+      <Filter>OpenCL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arithm_core.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="arithm_simd.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bufferpool.impl.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="directx.inc.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_core_3_1.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hal_replacement.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\opencv2\opencv_modules.hpp" />
+    <ClInclude Include="..\..\include\opencv2\cvconfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="version_string.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{85a89ee6-d38b-4a38-ab08-336d10afb531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{7b578611-c2df-43b1-8aca-1fd2bef8d580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCL">
+      <UniqueIdentifier>{37e6e63f-b0a5-4b1f-bd46-6952559c7696}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

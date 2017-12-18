@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\opencv2\cvconfig.h" />
+    <ClInclude Include="..\..\include\opencv2\opencv_modules.hpp" />
+    <ClInclude Include="filterengine.hpp" />
+    <ClInclude Include="gcgraph.hpp" />
+    <ClInclude Include="precomp.hpp" />
+    <ClInclude Include="_geom.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="accum.cpp" />
+    <ClCompile Include="approx.cpp" />
+    <ClCompile Include="blend.cpp" />
+    <ClCompile Include="canny.cpp" />
+    <ClCompile Include="clahe.cpp" />
+    <ClCompile Include="color.cpp" />
+    <ClCompile Include="colormap.cpp" />
+    <ClCompile Include="connectedcomponents.cpp" />
+    <ClCompile Include="contours.cpp" />
+    <ClCompile Include="convhull.cpp" />
+    <ClCompile Include="corner.cpp" />
+    <ClCompile Include="cornersubpix.cpp" />
+    <ClCompile Include="demosaicing.cpp" />
+    <ClCompile Include="deriv.cpp" />
+    <ClCompile Include="distransform.cpp" />
+    <ClCompile Include="drawing.cpp" />
+    <ClCompile Include="emd.cpp" />
+    <ClCompile Include="featureselect.cpp" />
+    <ClCompile Include="filter.cpp" />
+    <ClCompile Include="floodfill.cpp" />
+    <ClCompile Include="gabor.cpp" />
+    <ClCompile Include="generalized_hough.cpp" />
+    <ClCompile Include="geometry.cpp" />
+    <ClCompile Include="grabcut.cpp" />
+    <ClCompile Include="hershey_fonts.cpp" />
+    <ClCompile Include="histogram.cpp" />
+    <ClCompile Include="hough.cpp" />
+    <ClCompile Include="imgwarp.cpp" />
+    <ClCompile Include="intersection.cpp" />
+    <ClCompile Include="linefit.cpp" />
+    <ClCompile Include="lsd.cpp" />
+    <ClCompile Include="matchcontours.cpp" />
+    <ClCompile Include="min_enclosing_triangle.cpp" />
+    <ClCompile Include="moments.cpp" />
+    <ClCompile Include="morph.cpp" />
+    <ClCompile Include="phasecorr.cpp" />
+    <ClCompile Include="precomp.cpp" />
+    <ClCompile Include="pyramids.cpp" />
+    <ClCompile Include="rotcalipers.cpp" />
+    <ClCompile Include="samplers.cpp" />
+    <ClCompile Include="segmentation.cpp" />
+    <ClCompile Include="shapedescr.cpp" />
+    <ClCompile Include="smooth.cpp" />
+    <ClCompile Include="spatialgradient.cpp" />
+    <ClCompile Include="subdivision2d.cpp" />
+    <ClCompile Include="sumpixels.cpp" />
+    <ClCompile Include="tables.cpp" />
+    <ClCompile Include="templmatch.cpp" />
+    <ClCompile Include="thresh.cpp" />
+    <ClCompile Include="undistort.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{110394CD-9C92-4307-9C8F-ACAD99E87E9A}</ProjectGuid>
+    <Keyword>Android</Keyword>
+    <RootNamespace>opencv-imgproc</RootNamespace>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ApplicationType>Android</ApplicationType>
+    <ApplicationTypeRevision>2.0</ApplicationTypeRevision>
+    <ProjectName>opencv-imgproc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>Clang_3_8</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <IntDir>..\..\obj\android-x64\$(TargetName)_d\</IntDir>
+    <TargetName>lib$(RootNamespace)_d</TargetName>
+    <OutDir>..\..\lib\android-x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <IntDir>..\..\obj\android-x64\$(TargetName)\</IntDir>
+    <OutDir>..\..\lib\android-x64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <TargetName>lib$(RootNamespace)_d</TargetName>
+    <IntDir>..\..\obj\android-x86\$(TargetName)_d\</IntDir>
+    <OutDir>..\..\lib\android-x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <UseMultiToolTask>true</UseMultiToolTask>
+    <IntDir>..\..\obj\android-x86\$(TargetName)\</IntDir>
+    <OutDir>..\..\lib\android-x86\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <IntDir>..\..\obj\android-arm64\$(TargetName)_d\</IntDir>
+    <OutDir>..\..\lib\android-arm64\</OutDir>
+    <TargetName>lib$(RootNamespace)_d</TargetName>
+    <UseMultiToolTask>true</UseMultiToolTask>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <IntDir>..\..\obj\android-arm64\$(TargetName)\</IntDir>
+    <OutDir>..\..\lib\android-arm64\</OutDir>
+    <UseMultiToolTask>true</UseMultiToolTask>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <OutDir>..\..\lib\android-arm\</OutDir>
+    <IntDir>..\..\obj\android-arm\$(TargetName)_d\</IntDir>
+    <TargetName>lib$(RootNamespace)_d</TargetName>
+    <UseMultiToolTask>true</UseMultiToolTask>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IntDir>..\..\obj\android-arm\$(TargetName)\</IntDir>
+    <OutDir>..\..\lib\android-arm\</OutDir>
+    <UseMultiToolTask>true</UseMultiToolTask>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__x86_64__</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__x86_64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__i386__</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__i386__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__aarch64__</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnableNeonCodegen>
+      </EnableNeonCodegen>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__aarch64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <FloatABI>
+      </FloatABI>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__arm__</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\opencv2;..\..\include\opencv2\opencl;..\..\include\zlib;..\..\include\libpng;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnableNeonCodegen>true</EnableNeonCodegen>
+      <ExceptionHandling>Enabled</ExceptionHandling>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;__OPENCV_BUILD=1;ANDROID;__arm__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <FloatABI>softfp</FloatABI>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

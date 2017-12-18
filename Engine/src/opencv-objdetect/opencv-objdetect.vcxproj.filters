@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cascadedetect.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cascadedetect_convert.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="detection_based_tracker.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="haar.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="hog.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cascadedetect.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\opencv2\cvconfig.h" />
+    <ClInclude Include="..\..\include\opencv2\opencv_modules.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{187df6b8-eaf9-41b5-ae13-eb26a4b0b3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{88fff303-f0de-4c27-966a-9b396010c885}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

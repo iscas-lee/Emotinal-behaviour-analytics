@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bitstrm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_base.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_bmp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_hdr.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_png.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_pxm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_sunras.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="grfmt_tiff.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg_exif.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="loadsave.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbe.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitstrm.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_base.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_exr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_bmp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_gdal.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_hdr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_jpeg.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_jpeg2000.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_png.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_pxm.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_sunras.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmts.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_webp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grfmt_tiff.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rgbe.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg_exif.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\opencv2\cvconfig.h" />
+    <ClInclude Include="..\..\include\opencv2\opencv_modules.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{2f112e9e-4ee7-41f5-a5e1-f8aa32b0eeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{9011fa7e-5f8d-4e6b-990f-d78e1345121c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

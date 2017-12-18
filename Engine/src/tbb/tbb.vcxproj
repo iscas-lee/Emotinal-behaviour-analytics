@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arena.cpp" />
+    <ClCompile Include="cache_aligned_allocator.cpp" />
+    <ClCompile Include="concurrent_hash_map.cpp" />
+    <ClCompile Include="concurrent_monitor.cpp" />
+    <ClCompile Include="concurrent_queue.cpp" />
+    <ClCompile Include="concurrent_vector.cpp" />
+    <ClCompile Include="condition_variable.cpp" />
+    <ClCompile Include="critical_section.cpp" />
+    <ClCompile Include="dynamic_link.cpp" />
+    <ClCompile Include="governor.cpp" />
+    <ClCompile Include="itt_notify.cpp" />
+    <ClCompile Include="market.cpp" />
+    <ClCompile Include="mutex.cpp" />
+    <ClCompile Include="observer_proxy.cpp" />
+    <ClCompile Include="pipeline.cpp" />
+    <ClCompile Include="private_server.cpp" />
+    <ClCompile Include="queuing_mutex.cpp" />
+    <ClCompile Include="queuing_rw_mutex.cpp" />
+    <ClCompile Include="reader_writer_lock.cpp" />
+    <ClCompile Include="recursive_mutex.cpp" />
+    <ClCompile Include="rml\rml_omp.cpp" />
+    <ClCompile Include="rml\rml_server.cpp" />
+    <ClCompile Include="rml\rml_tbb.cpp" />
+    <ClCompile Include="scheduler.cpp" />
+    <ClCompile Include="semaphore.cpp" />
+    <ClCompile Include="spin_mutex.cpp" />
+    <ClCompile Include="spin_rw_mutex.cpp" />
+    <ClCompile Include="task.cpp" />
+    <ClCompile Include="task_group_context.cpp" />
+    <ClCompile Include="tbb_main.cpp" />
+    <ClCompile Include="tbb_misc.cpp" />
+    <ClCompile Include="tbb_misc_ex.cpp" />
+    <ClCompile Include="tbb_statistics.cpp" />
+    <ClCompile Include="tbb_thread.cpp" />
+    <ClCompile Include="x86_rtm_rw_mutex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tbb_resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="arena.h" />
+    <ClInclude Include="cilk-tbb-interop.h" />
+    <ClInclude Include="concurrent_monitor.h" />
+    <ClInclude Include="custom_scheduler.h" />
+    <ClInclude Include="dynamic_link.h" />
+    <ClInclude Include="governor.h" />
+    <ClInclude Include="intrusive_list.h" />
+    <ClInclude Include="itt_notify.h" />
+    <ClInclude Include="mailbox.h" />
+    <ClInclude Include="market.h" />
+    <ClInclude Include="observer_proxy.h" />
+    <ClInclude Include="rml\job_automaton.h" />
+    <ClInclude Include="rml\rml_base.h" />
+    <ClInclude Include="rml\rml_omp.h" />
+    <ClInclude Include="rml\rml_tbb.h" />
+    <ClInclude Include="rml\thread_monitor.h" />
+    <ClInclude Include="rml\wait_counter.h" />
+    <ClInclude Include="scheduler.h" />
+    <ClInclude Include="scheduler_common.h" />
+    <ClInclude Include="scheduler_utility.h" />
+    <ClInclude Include="semaphore.h" />
+    <ClInclude Include="task_stream.h" />
+    <ClInclude Include="tbb_assert_impl.h" />
+    <ClInclude Include="tbb_main.h" />
+    <ClInclude Include="tbb_misc.h" />
+    <ClInclude Include="tbb_statistics.h" />
+    <ClInclude Include="tbb_version.h" />
+    <ClInclude Include="tls.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="version_string.ver">
+      <FileType>CppHeader</FileType>
+    </None>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DC27D08-0E3B-49DA-B08D-2C7502B5B2FE}</ProjectGuid>
+    <RootNamespace>tbb</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\lib\x86\</OutDir>
+    <IntDir>..\..\obj\x86\$(TargetName)_d\</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <OutDir>..\..\lib\x86\</OutDir>
+    <IntDir>..\..\obj\x86\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <OutDir>..\..\lib\x64\</OutDir>
+    <IntDir>..\..\obj\x64\$(TargetName)_d\</IntDir>
+    <TargetName>$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+    <OutDir>..\..\lib\x64\</OutDir>
+    <IntDir>..\..\obj\x64\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\include\tbb;..\..\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4297;4838</DisableSpecificWarnings>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;__TBB_BUILD;__TBB_NO_IMPLICIT_LINKAGE;USE_WINTHREAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+      <MinimumRequiredVersion>6.00</MinimumRequiredVersion>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\include\tbb;..\..\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4297;4838</DisableSpecificWarnings>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;__TBB_BUILD;__TBB_NO_IMPLICIT_LINKAGE;USE_WINTHREAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Lib>
+      <MinimumRequiredVersion>6.00</MinimumRequiredVersion>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\include\tbb;..\..\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4297;4838</DisableSpecificWarnings>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <StringPooling>true</StringPooling>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;__TBB_BUILD;__TBB_NO_IMPLICIT_LINKAGE;USE_WINTHREAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <TargetMachine>MachineX86</TargetMachine>
+      <MinimumRequiredVersion>6.00</MinimumRequiredVersion>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>..\..\include\tbb;..\..\include</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4297;4838</DisableSpecificWarnings>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <StringPooling>true</StringPooling>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;__TBB_BUILD;__TBB_NO_IMPLICIT_LINKAGE;USE_WINTHREAD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <MinimumRequiredVersion>6.00</MinimumRequiredVersion>
+    </Lib>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

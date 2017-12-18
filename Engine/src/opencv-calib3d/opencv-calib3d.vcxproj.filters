@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="calibinit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="calibration.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="checkchessboard.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="circlesgrid.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="compat_ptsetreg.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="compat_stereo.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="dls.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="epnp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fisheye.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="five-point.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fundam.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="homography_decomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="levmarq.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="p3p.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="polynom_solver.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="posit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ptsetreg.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="quadsubpix.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="rho.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="solvepnp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stereobm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stereosgbm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="triangulate.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="upnp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="circlesgrid.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dls.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="epnp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fisheye.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="p3p.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="polynom_solver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="rho.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="upnp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\opencv2\cvconfig.h" />
+    <ClInclude Include="..\..\include\opencv2\opencv_modules.hpp" />
+    <ClInclude Include="precomp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{7904d9c9-a8d1-49df-b7c9-1d68f9be3274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{b4ceda5a-5ea4-41d7-a5dd-b6900ae13fb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

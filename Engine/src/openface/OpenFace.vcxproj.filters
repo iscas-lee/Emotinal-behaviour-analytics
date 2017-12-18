@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{045f637d-de02-4e50-a2bd-8bbfb5d5a7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{9dcdcf72-1030-4dcb-9cd1-ae73ed9ee132}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FaceAnalyser.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PAW.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PDM.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceDetector.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SVMDynamicLinear.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SVMStaticLinear.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SVRDynamicLinear.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SVRStaticLinear.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceUtil.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceValidator.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceModelParameters.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceModel.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FacePatchExperts.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceCCNFPatchExpert.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceSystem.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\openface\FaceAnalyser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\PAW.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\PDM.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceDetector.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceUtil.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceValidator.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceModelParameters.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FacePatchExperts.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceActionUnit.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceCCNFPatchExpert.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceGlobalParameters.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceQueue.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceWorker.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\openface\FaceResult.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

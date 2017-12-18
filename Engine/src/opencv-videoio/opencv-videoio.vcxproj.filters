@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cap.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cap_dshow.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cap_ffmpeg.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cap_images.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cap_mjpeg_decoder.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cap_mjpeg_encoder.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cap_vfw.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cap_dshow.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_ffmpeg_impl.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_ffmpeg_api.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_msmf.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_intelperc.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg_codecs.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_winrt_video.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_winrt_capture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cap_winrt_bridge.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="wrl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\opencv2\cvconfig.h" />
+    <ClInclude Include="..\..\include\opencv2\opencv_modules.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{51ca75f1-0735-458f-b751-054189c52738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{f62cb215-55f3-49ed-a8b1-b67cd9175222}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
